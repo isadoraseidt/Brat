@@ -5,18 +5,13 @@ import robocode.*;
 import java.awt.*;
 
 
-public class Crazy extends AdvancedRobot {
+public class Teste1Isa extends AdvancedRobot {
 	boolean movingForward;
 
 	
 	public void run() {
 		
-		setBodyColor(Color.pink);
-		setGunColor(new Color(0, 150, 50));
-		setRadarColor(new Color(0, 100, 100));
-		setBulletColor(new Color(255, 255, 100));
-		setScanColor(new Color(255, 200, 200));
-
+		setColors(Color.pink, Color.green, Color.black);
 		
 		while (true) {
 			
@@ -52,7 +47,6 @@ public class Crazy extends AdvancedRobot {
 	}
 
 	public void onHitRobot(HitRobotEvent e) {
-		// If we're moving the other robot, reverse!
 		if (e.isMyFault()) {
 			reverseDirection();
 		}
