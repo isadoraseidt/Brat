@@ -1,11 +1,11 @@
-package sample;
+package teste;
 
 import robocode.*;
 
 import java.awt.*;
 
 
-public class Teste1Isa extends AdvancedRobot {
+public class Teste1Isa extends Robot {
 	boolean movingForward;
 
 	
