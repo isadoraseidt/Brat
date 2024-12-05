@@ -2,11 +2,10 @@ package teste;
 
 import robocode.*;
 
-import java.awt.*;
+import java.awt.Colors;
 
 
 public class Teste1Isa extends Robot {
-	boolean movingForward;
 
 	
 	public void run() {
@@ -15,7 +14,7 @@ public class Teste1Isa extends Robot {
 		setGunColor(Color.black);
 		setRadarColor(Color.green);
 		setBulletColor(Color.blue);
-		setScanColor(Color.pink));
+		setScanColor(Color.pink);
 	}
 }
 	
