@@ -8,8 +8,8 @@ public class Main extends Robot {
     public void run() {
 
         while (true) {
-            ahead(50);
-            turnRight(45);
+            ahead(120);
+            turnRight(90);
         }
     }
 }
