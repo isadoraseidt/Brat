@@ -7,11 +7,11 @@ public class Main extends Robot {
    
     public void run() {
     
-setBodyColor(Color.pink);
+setBodyColor(Color.magenta);
 setGunColor(Color.black);
 setRadarColor(Color.black);
 setBulletColor(Color.white);
-setScanColor(Color.pink);
+setScanColor(Color.magenta);
 
         while (true) {
             ahead(120);
