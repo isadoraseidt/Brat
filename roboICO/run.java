@@ -1,4 +1,4 @@
-mport robocode.*;
+import robocode.*;
 import java.awt.Color;
 
 
