@@ -3,9 +3,9 @@ public void onScannedRobot(ScannedRobotEvent e) {
         double distancia = e.getDistance();
         System.out.println(robotank + " distância: " + distancia);
         
-        if (distancia < 100) {
+        if (distancia < 120) {
             fire(2); 
         } else {
-            fire(2);
+            fire(1);
         }
     }
