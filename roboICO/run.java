@@ -14,7 +14,7 @@ setBulletColor(Color.white);
 setScanColor(Color.magenta);
 
         while (true) {
-            ahead(120);
+            ahead(170);
             turnRight(90);
         }
     }
