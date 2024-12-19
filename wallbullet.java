@@ -4,5 +4,5 @@ public void onHitWall(HitWallEvent e) {
     }
 
     public void onHitByBullet(HitByBulletEvent e) {
-ahead(50);
+ahead(10);
 }
