@@ -1,5 +1,5 @@
 public void onHitWall(HitWallEvent e) {
-        back(75);
+        back(50);
         turnRight(90);
     }
 
