@@ -27,7 +27,7 @@ public void onScannedRobot(ScannedRobotEvent e) {
         if (distancia < 135) {
             fire(3); 
         } else {
-            fire(1);
+            fire(2);
         }
     }
 public void onHitWall(HitWallEvent e) {
