@@ -18,7 +18,7 @@ setScanColor(Color.magenta);
             turnRight(90);
         }
     }
-}
+
 public void onScannedRobot(ScannedRobotEvent e) {
         String robotank = e.getName();
         double distancia = e.getDistance();
@@ -36,5 +36,6 @@ public void onHitWall(HitWallEvent e) {
     }
 
     public void onHitByBullet(HitByBulletEvent e) {
-ahead(10);
+	ahead(10);
+	}
 }
