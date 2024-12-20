@@ -18,6 +18,9 @@ setScanColor(Color.magenta);
             turnRight(90);
         }
     }
+public void onWin(WinEvent e) {
+	turnRight(36000);
+}
 
 public void onScannedRobot(ScannedRobotEvent e) {
         String robotank = e.getName();
