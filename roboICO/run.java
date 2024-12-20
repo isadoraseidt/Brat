@@ -2,7 +2,7 @@ import robocode.*;
 import java.awt.Color;
 
 
-public class Main extends Robot {
+public class Brat extends Robot {
 
    
     public void run() {
